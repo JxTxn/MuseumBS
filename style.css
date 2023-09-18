@@ -10,16 +10,13 @@ body{
     width: 800px;
     background-color: #f1f1f1;
 }
-.topHeader{
-    height: 150px;
-}
 .introContainer{
     margin: 0 20px;
     display: flex;
     justify-content: space-between;
-    align-items: top;
 }
 .buttons{
+    margin: 0px;
     width: 22%;
     padding: 4px;
     border-radius: 6px;
@@ -37,7 +34,7 @@ body{
 #secondButton{
     padding: 6px;
     width: 40%;
-    margin-left: 55%;
+    margin-left: auto;
     color: #ffffff;
     background-color: #FF0048;
 }
@@ -49,7 +46,7 @@ body{
     color: #FF0048;
 }
 .container{
-    margin: 0 30px;
+    margin: 0 16px;
 }
 .horizontalCard{
     display: flex;
@@ -62,11 +59,11 @@ body{
 .cardContainer{
     display: flex;
     justify-content: space-around;
-    margin: 5px;
+    margin: 0px;
 }
 .card{
     width: 40%;
-    padding: 15px;
+    padding: 17px;
     background-color: white;
 }
 .cardImg{
@@ -88,11 +85,8 @@ body{
 .video{
     transform: scale(1.1);
 }
-.clear{
-    margin-bottom: 12%;
-}
 .footerContainer{
-    margin-top: 12%;
+    margin-top: 90px;
     background-color: #FABC43;
 }
 .foot{
@@ -100,12 +94,26 @@ body{
     height: 100px;
     color: #ffffff;
     display: flex;
-    justify-content: start;
-    align-items: start;
+    font-size: 13px;
+}
+#footFirst{
+    margin-left: 10px;
+    width: 150px;
+}
+#footSecond{
+    width: 110px;
+}
+#footBlast{
+    margin-left: 10px;
+    width: 250px;
+}
+#footLast{
+    width: 140px;
 }
 .footimg{
-    margin-top: 20px;
+    margin-top: 15px;
     width: 100px;
-    justify-content: center;
-    align-items: center;
+}
+.spacer{
+    margin-top: 90px;
 }
